@@ -1,0 +1,18 @@
+{
+    "name": "north-ladder",
+    "version": "1.0.0",
+    "description": "Node.js app connecting to MongoDB and Redis",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "run":"npm start"
+    },
+    "author": "shailesh-shetty",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.13.7",
+      "redis": "^3.0.2"
+    }
+  }
+  
