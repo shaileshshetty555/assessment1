@@ -1,0 +1,11 @@
+# values.yaml
+replicaCount: 2
+image:
+  repository: your-nodejs-app-image
+  tag: latest
+service:
+  name: nodejs-service
+  port: 80
+ingress:
+  enabled: true
+  host: your-domain.com
