@@ -5,7 +5,7 @@ FROM node:14
 # Create and set the working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json to the working directory
+# Copy package.json and package-l.json to the working directory
 COPY package*.json ./
 
 # Install application dependencies
